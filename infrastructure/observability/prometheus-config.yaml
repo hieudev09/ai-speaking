@@ -1,0 +1,27 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+rule_files:
+  - "alert_rules.yaml"
+
+scrape_configs:
+  - job_name: "ai-speaking-api"
+    metrics_path: "/metrics"
+    static_configs:
+      - targets: ["api-service.ai-platform.svc.cluster.local:3001"]
+
+  - job_name: "ai-gateway"
+    metrics_path: "/metrics"
+    static_configs:
+      - targets: ["ai-gateway-service.ai-platform.svc.cluster.local:3003"]
+
+  - job_name: "bullmq-workers"
+    metrics_path: "/metrics"
+    static_configs:
+      - targets: ["worker-service.ai-platform.svc.cluster.local:3004"]
+
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: ["alertmanager.monitoring.svc.cluster.local:9093"]

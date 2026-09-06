@@ -2,15 +2,7 @@
 
 > **Daily speaking with me (DSWM)** là hệ sinh thái Monorepo chuẩn doanh nghiệp (Production-Ready) hỗ trợ luyện nói tiếng Anh tương tác với AI: Chấm điểm phát âm chi tiết 5 chiều, phòng đàm thoại đa nhân vật (Multi-Persona), truy xuất tri thức RAG (`pgvector`), gamification giữ chân người học, thanh toán Stripe & Sandbox, cùng Portal quản trị vận hành chuyên sâu.
 
-**Phiên bản Tiếng Việt** | [English Version](README.en.md)
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.5-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Turborepo](https://img.shields.io/badge/Turborepo-2.10-EF4444?logo=turborepo)](https://turbo.build/)
-[![Next.js 15](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
-[![NestJS](https://img.shields.io/badge/NestJS-10-E0234E?logo=nestjs)](https://nestjs.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-336791?logo=postgresql)](https://www.postgresql.org/)
-[![pgvector](https://img.shields.io/badge/pgvector-Vector_Search-green)](https://github.com/pgvector/pgvector)
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-Production-326CE5?logo=kubernetes)](https://kubernetes.io/)
+[English Version](README.md) | **Phiên bản Tiếng Việt**
 
 ---
 

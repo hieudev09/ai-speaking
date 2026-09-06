@@ -1,0 +1,9 @@
+{
+  "name": "@ai-platform/config",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./index.js",
+  "scripts": {
+    "typecheck": "echo 'config package - no typecheck needed'"
+  }
+}

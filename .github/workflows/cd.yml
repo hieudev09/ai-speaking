@@ -1,0 +1,14 @@
+name: CD (Deploy)
+# Stub — ArgoCD integration implemented in Phase 7
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    name: Deploy (Phase 7)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stub
+        run: echo "ArgoCD deployment configured in Phase 7 — see docs/PRD/20-DEVOPS-INFRASTRUCTURE.md"
